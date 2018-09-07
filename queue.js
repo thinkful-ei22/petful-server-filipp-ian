@@ -53,7 +53,8 @@ const fluffy = {
     sex: 'Female',
     age: 2,
     breed: 'Bengal',
-    story: 'Thrown on the street'
+    story: 'Thrown on the street',
+    species: 'cat'
 }
 const skittles = {
     imageURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg',
@@ -62,7 +63,8 @@ const skittles = {
     sex: 'Female',
     age: 2,
     breed: 'tabby',
-    story: 'Thrown on the street'
+    story: 'Thrown on the street',
+    species: 'cat'
 }
 const felix = {
     imageURL: 'https://r.hswstatic.com/w_907/gif/tesla-cat.jpg',
@@ -71,7 +73,8 @@ const felix = {
     sex: 'Female',
     age: 5,
     breed: 'siamese',
-    story: 'Thrown on the street'
+    story: 'Thrown on the street',
+    species: 'cat'
 }
 const bowser = {
     imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
@@ -80,7 +83,8 @@ const bowser = {
     sex: 'Male',
     age: 3,
     breed: 'Golden Retriever',
-    story: 'Owner Passed away'
+    story: 'Owner Passed away',
+    species: 'dog'
 }
 const bandit = {
     imageURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJ81ExajuASG5hIET3Wm2U_cnoACEKXLP7TDxf4TKZkvEXLCI',
@@ -89,7 +93,8 @@ const bandit = {
     sex: 'Male',
     age: 3,
     breed: 'pug',
-    story: 'Owner Passed away'
+    story: 'Owner Passed away',
+    species: 'dog'
 }
 const wrigley = {
     imageURL: 'https://hips.hearstapps.com/ghk.h-cdn.co/assets/18/12/beagle.jpg',
@@ -98,7 +103,8 @@ const wrigley = {
     sex: 'Male',
     age: 3,
     breed: 'weiner dog',
-    story: 'Owner Passed away'
+    story: 'Owner Passed away',
+    species: 'dog'
 }
 
 
