@@ -26,22 +26,35 @@ app.use(
 
 
 app.get('/api/cat', (req, res, next) => {
-  res.json(catQueue.peek())
-})
+  res.json(catQueue.peek());
+});
 
 app.get('/api/dog', (req, res, next) => {
-  res.json(dogQueue.peek())
-})
+  res.json(dogQueue.peek());
+});
 
 app.delete('/api/cat', (req, res, next) => {
   catQueue.dequeue();
   res.status(204).end();
-})
+});
 
 app.delete('/api/dog', (req, res, next) => {
   dogQueue.dequeue();
   res.status(204).end();
-})
+});
+
+app.post('/api/cat', (req, res, next) => {
+  const {animal} = req.body; 
+  catQueue.enqueue(animal);
+  res.status(201).end();
+});
+
+app.post('/api/dog', (req, res, next) => {
+  const {animal} = req.body; 
+  dogQueue.enqueue(animal);
+  res.status(201).end();
+});
+
 
 
 
